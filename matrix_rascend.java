@@ -34,7 +34,7 @@ public class matrix_rascend
         {
             for(int j=0; j<(m-1); j++)
             {
-                for(int k=0; k<(3-j); k++)
+                for(int k=0; k<((m-1)-j); k++)
                 {
                     if(x[i][k] > x[i][k+1])
                     {
